@@ -1,9 +1,10 @@
+import React from "react";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
         <img
-          src="/logo.png"
+          src="../image/logo.jpg"
           alt="logo"
           width="50"
         />

@@ -1,3 +1,4 @@
+import React from "react";
 function Hero() {
   return (
     <section className="bg-light text-center p-5">
