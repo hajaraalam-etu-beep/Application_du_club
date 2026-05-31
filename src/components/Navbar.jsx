@@ -45,6 +45,19 @@ function Navbar() {
 
           <a
             className="nav-link"
+            href="#gallery"
+            style={{ transition: "all 0.3s ease" }}
+            onMouseOver={(e) => {
+              e.target.style.transform = "scale(1.2)";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.transform = "scale(1)";
+            }}
+          >
+            Galerie
+          </a>
+          <a
+            className="nav-link"
             href="#join"
             style={{ transition: "all 0.3s ease" }}
             onMouseOver={(e) => {
@@ -55,6 +68,19 @@ function Navbar() {
             }}
           >
             Rejoindre
+          </a>
+          <a
+            className="nav-link"
+            href="#contact"
+            style={{ transition: "all 0.3s ease" }}
+            onMouseOver={(e) => {
+              e.target.style.transform = "scale(1.2)";
+            }}
+            onMouseOut={(e) => {
+              e.target.style.transform = "scale(1)";
+            }}
+          >
+            Contact
           </a>
         </div>
       </div>

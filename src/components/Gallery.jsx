@@ -10,7 +10,7 @@ function Gallery() {
   ];
 
   return (
-    <section className="container mt-5">
+    <section id="gallery" className="container mt-5">
       <h2 className="text-center fw-bold mb-4">
         Galerie
       </h2>

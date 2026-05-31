@@ -74,7 +74,7 @@ function JoinClub() {
           />
 
            <button className="btn" style={{backgroundColor: "#4FC3F7",color: "white",padding: "10px 25px",
-            borderRadius: "10px"}}onClick={() => setShowForm(!showForm)}>  Rejoindre
+            borderRadius: "10px"}}onClick={() => setShowForm(!showForm)}>  Envoyer
            </button>
         </form>
       )}
