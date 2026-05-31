@@ -1,23 +1,38 @@
 const members = [
   {
     id: 1,
-    nom: "Ahmed",
-    poste: "Président"
+    nom: "FATIMA ZAHRA ERRAQI",
+    poste: "Présidente"
   },
   {
     id: 2,
-    nom: "Sara",
-    poste: "Vice-présidente"
+    nom: " YOUNES EL KADMIRI ",
+    poste: "Vice-président"
   },
   {
     id: 3,
-    nom: "Yassine",
-    poste: "Secrétaire"
+    nom: "MOHAMED BEN DIFI",
+    poste: "Head of the design unit"
   },
   {
     id: 4,
-    nom: "Meryem",
-    poste: "Trésorière"
+    nom: "TAOUFIK AMZIL",
+    poste: "Speaker"
+  },
+  {
+    id: 5,
+    nom: "WIAM BOULIF",
+    poste: "General Secretary"
+  },
+  {
+    id: 6,
+    nom: "SARA RIZK",
+    poste: "Events manager"
+  },
+  {
+    id: 7,
+    nom: "FATIMA EZ-ZAHRAA HAJARI",
+    poste: "Human Resources manager"
   }
 ];
 

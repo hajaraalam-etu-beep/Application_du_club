@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-function JoinClub() {
 
+function JoinClub() {
   const [showForm, setShowForm] = useState(false);
 
   const [nom, setNom] = useState("");
@@ -10,7 +10,6 @@ function JoinClub() {
   const [filiere, setFiliere] = useState("");
 
   const handleSubmit = (e) => {
-
     e.preventDefault();
 
     alert(
@@ -26,35 +25,28 @@ function JoinClub() {
   return (
     <section
       id="join"
-      className="container mt-5"
+      className="container mt-5 text-center"
     >
+      <h2 className="fw-bold mb-4">
+        Rejoindre le club
+      </h2>
 
-      <h2>Rejoindre le club</h2>
-
-      <button
-        className="btn btn-success"
-        onClick={() =>
-          setShowForm(!showForm)
-        }
-      >
-        Rejoindre
-      </button>
-
+      <button  className="btn" style={{ backgroundColor: "#4FC3F7",color: "white",padding: "10px 25px",
+        borderRadius: "10px"}}
+         onClick={() => setShowForm(!showForm)}>Rejoindre
+     </button>
       {showForm && (
-
         <form
-          className="mt-4"
+          className="mt-4 mx-auto"
+          style={{ maxWidth: "500px" }}
           onSubmit={handleSubmit}
         >
-
           <input
             type="text"
             placeholder="Nom"
             className="form-control mb-3"
             value={nom}
-            onChange={(e) =>
-              setNom(e.target.value)
-            }
+            onChange={(e) => setNom(e.target.value)}
           />
 
           <input
@@ -62,9 +54,7 @@ function JoinClub() {
             placeholder="Prénom"
             className="form-control mb-3"
             value={prenom}
-            onChange={(e) =>
-              setPrenom(e.target.value)
-            }
+            onChange={(e) => setPrenom(e.target.value)}
           />
 
           <input
@@ -72,9 +62,7 @@ function JoinClub() {
             placeholder="Email"
             className="form-control mb-3"
             value={email}
-            onChange={(e) =>
-              setEmail(e.target.value)
-            }
+            onChange={(e) => setEmail(e.target.value)}
           />
 
           <input
@@ -82,22 +70,14 @@ function JoinClub() {
             placeholder="Filière"
             className="form-control mb-3"
             value={filiere}
-            onChange={(e) =>
-              setFiliere(e.target.value)
-            }
+            onChange={(e) => setFiliere(e.target.value)}
           />
 
-          <button
-            className="btn btn-primary"
-            type="submit"
-          >
-            Envoyer
-          </button>
-
+           <button className="btn" style={{backgroundColor: "#4FC3F7",color: "white",padding: "10px 25px",
+            borderRadius: "10px"}}onClick={() => setShowForm(!showForm)}>  Rejoindre
+           </button>
         </form>
-
       )}
-
     </section>
   );
 }

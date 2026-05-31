@@ -62,3 +62,14 @@
     font-size: 1rem;
   }
 }
+.member-card {
+  height: 180px;
+  border-radius: 15px;
+}
+
+.member-card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
