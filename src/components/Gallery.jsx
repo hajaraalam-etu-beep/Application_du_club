@@ -12,7 +12,7 @@ function Gallery() {
   return (
     <section id="gallery" className="container mt-5">
       <h2 className="text-center fw-bold mb-4">
-        Galerie
+        Atelier
       </h2>
 
       <div className="row">

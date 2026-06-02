@@ -18,7 +18,7 @@ function Members() {
               style={{
                 minHeight: "220px",
                 borderRadius: "15px",
-                backgroundColor: "#0d6efd"
+                backgroundColor: "#0d9488"
               }}
             >
               <div className="card-body d-flex flex-column justify-content-center text-center">
